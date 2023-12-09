@@ -1,0 +1,35 @@
+{
+  "name": "Legion Go - PS5 controller emulator to xbox glyphs",
+  "author": "azu, stolen from Akaza Renn",
+  "version": "v0.1",
+  "manifest_version": 1,
+  "patches": {
+    "Replace menu button with Steam": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "sd_steam_button.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Replace PS glyphs with Xbox": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "ps.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      }
+    }
+  },
+  "id": "1337133713371337"
+}
