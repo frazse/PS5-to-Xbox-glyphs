@@ -11,7 +11,8 @@
         "Yes": {
           "sd_steam_button.css": [
             "SP",
-            "QuickAccess"
+            "QuickAccess",
+            "MainMenu"
           ]
         },
         "No": {}
@@ -24,7 +25,8 @@
         "Yes": {
           "ps.css": [
             "SP",
-            "QuickAccess"
+            "QuickAccess",
+            "MainMenu"
           ]
         },
         "No": {}
