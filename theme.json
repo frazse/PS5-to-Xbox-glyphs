@@ -1,37 +1,62 @@
 {
-  "name": "Legion Go - PS5 controller emulator to xbox glyphs",
-  "author": "azu, stolen from Akaza Renn",
-  "version": "v0.1",
-  "manifest_version": 1,
-  "patches": {
-    "Replace menu button with Steam": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": {
-          "sd_steam_button.css": [
-            "SP",
-            "QuickAccess",
-            "MainMenu"
-          ]
-        },
-        "No": {}
-      }
-    },
-    "Replace PS glyphs with Xbox": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": {
-          "ps.css": [
-            "SP",
-            "QuickAccess",
-            "MainMenu"
-          ]
-        },
-        "No": {}
-      }
-    }
+  "name":"Legion Go - PS5 controller emulator to xbox glyphs",
+  "author":"azu, stolen from Akaza Renn",
+  "version":"v0.2",
+  "manifest_version":1,
+  "patches":{
+     "Replace menu button with Steam":{
+        "type":"checkbox",
+        "default":"No",
+        "values":{
+           "Yes":{
+              "sd_steam_button.css":[
+                 "SP",
+                 "QuickAccess",
+                 "MainMenu"
+              ]
+           },
+           "No":{
+
+           }
+        }
+     },
+     "Replace PS glyphs with Xbox":{
+        "type":"checkbox",
+        "default":"No",
+        "values":{
+           "Yes":{
+              "ps.css":[
+                 "SP",
+                 "QuickAccess",
+                 "MainMenu"
+              ]
+           },
+           "No":{
+
+           }
+        }
+     }
   },
-  "id": "1337133713371337"
+  "patches":{
+  "Choose controller:":{
+     "type":"dropdown",
+     "default":"PS5",
+     "values":{
+        "PS5":{
+
+        },
+        "Xbox":{
+           "xboxelite.css":[
+              "MainMenu"
+           ]
+        },
+          "Steam Controller":{
+           "sc.css":[
+              "MainMenu"
+           ]
+        }
+        }
+     }
+  },
+  "id":"1337133713371337"
 }
