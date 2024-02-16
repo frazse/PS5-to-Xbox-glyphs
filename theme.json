@@ -4,12 +4,12 @@
   "version":"v0.2",
   "manifest_version":1,
   "patches":{
-     "Replace menu button with Steam":{
+     "Replace PS glyphs with Xbox":{
         "type":"checkbox",
         "default":"No",
         "values":{
            "Yes":{
-              "sd_steam_button.css":[
+              "ps.css":[
                  "SP",
                  "QuickAccess",
                  "MainMenu"
@@ -20,12 +20,12 @@
            }
         }
      },
-     "Replace PS glyphs with Xbox":{
+     "Replace menu button with Steam":{
         "type":"checkbox",
         "default":"No",
         "values":{
            "Yes":{
-              "ps.css":[
+              "sd_steam_button.css":[
                  "SP",
                  "QuickAccess",
                  "MainMenu"
